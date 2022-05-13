@@ -1,0 +1,19 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-034-506
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-034-506
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2022 11:04:16] "GET /chain HTTP/1.1" 200 -
+INFO:root:New transaction --> 15235845dsuk
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2022 11:04:25] "POST /addTrans HTTP/1.1" 200 -
+INFO:root:Validated PoW block 1
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2022 11:04:32] "GET /mine HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2022 11:04:40] "GET /chain HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Feb/2022 11:05:03] "GET /indexs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/rdfilippo/Desktop/Scuola/blockchain/blockchain.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-034-506
