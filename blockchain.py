@@ -3,7 +3,7 @@ import json
 import time
 import logging
 
-logging.basicConfig(filename="log.log", encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(filename="logs/log.log", encoding='utf-8', level=logging.DEBUG)
 
 class Block:
     def __init__(self, index, transaction, timestamp, prev_hash, nonce=0):
